@@ -1,0 +1,9 @@
+{
+	"name": "pizza-sales-data-factory-12370734",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "568882da-9193-493b-a8ae-1692a4593598",
+		"tenantId": "cc28633f-12b8-46cb-bc15-951dae239b4d"
+	}
+}
