@@ -1,0 +1,25 @@
+{
+	"name": "dim_tiempo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dw_pizza_sales",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "dw"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "tiempo",
+				"type": "time",
+				"scale": 7
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DIM_TIEMPO"
+		}
+	}
+}
