@@ -1,0 +1,9 @@
+{
+	"name": "adf-pizza-sales-123707345",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "93fa4038-c1a5-47ab-8736-4f1776771093",
+		"tenantId": "cc28633f-12b8-46cb-bc15-951dae239b4d"
+	}
+}
