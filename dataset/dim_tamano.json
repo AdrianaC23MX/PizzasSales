@@ -1,0 +1,34 @@
+{
+	"name": "dim_tamano",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dw_pizza_sales",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "dw"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "tamanoNom",
+				"type": "varchar"
+			},
+			{
+				"name": "size",
+				"type": "varchar"
+			},
+			{
+				"name": "price",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DIM_TAMANO"
+		}
+	}
+}

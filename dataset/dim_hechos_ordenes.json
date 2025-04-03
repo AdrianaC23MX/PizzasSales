@@ -1,0 +1,47 @@
+{
+	"name": "dim_hechos_ordenes",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dw_pizza_sales",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "dw"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "idOrden",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "idTipo",
+				"type": "varchar"
+			},
+			{
+				"name": "tamanoNom",
+				"type": "varchar"
+			},
+			{
+				"name": "fecha",
+				"type": "date"
+			},
+			{
+				"name": "tiempo",
+				"type": "time",
+				"scale": 7
+			},
+			{
+				"name": "cantidad",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "HECHOS_ORDENES"
+		}
+	}
+}
